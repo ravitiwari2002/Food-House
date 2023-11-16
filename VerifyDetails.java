@@ -59,8 +59,8 @@ public class VerifyDetails extends JFrame {
 		p.put("mail.smtp.host", "smtp.gmail.com");
 		p.put("mail.smtp.port", "587");
 
-		String myEmail = "casinocoffee2021@gmail.com";
-		String myPass = "SINCE2021";
+		String myEmail = "YOUR EMAIL";
+		String myPass = "YOUR PASSWORD";
 
 		Session sess= Session.getInstance(p, new Authenticator() {
 			@Override
